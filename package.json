@@ -1,0 +1,26 @@
+{
+  "name": "unit-test-project",
+  "version": "1.0.0",
+  "description": "Playground for karma mocha chai sinon",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.config.js"
+  },
+  "author": {
+    "name": "Ruslan Muftiev"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "karma": "^1.2.0",
+    "karma-chai-sinon": "^0.1.5",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}
